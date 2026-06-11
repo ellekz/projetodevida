@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-de-fundo: #530505;
-    --verde: #d330aa;
-    --branco: #FFFFFF;
-    --botao-ativo: #908f9b;
-    --botao-inativo: rgba(91, 55, 94, 0.5);
-    --texto-fundo: rgba(31, 27, 77, 0.3);
+    --cor-de-fundo: #151452;
+    --verde: #fffeb9;
+    --branco: #bfb5ec;
+    --botao-ativo: #9459f3;
+    --botao-inativo: rgba(50, 23, 85, 0.5);
+    --texto-fundo: rgba(126, 118, 219, 0.3);
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -38,7 +38,7 @@ body {
 
 
 .botao {
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
